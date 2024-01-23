@@ -1,6 +1,10 @@
 {
   "name": "superscript-structured-text",
   "version": "0.1.0",
+  "files": [
+    "build",
+    "docs"
+  ],
   "private": true,
   "dependencies": {
     "@types/node": "^18.19.8",
@@ -41,9 +45,9 @@
     "cross-env": "^7.0.3"
   },
   "datoCmsPlugin": {
-    "title": "",
-    "previewImage": "",
-    "coverImage": "",
+    "title": "Advanced Structured Text",
+    "previewImage": "docs/thumbnail.png",
+    "coverImage": "docs/thumbnail.png",
     "entryPoint": "build/index.html"
   }
 }
